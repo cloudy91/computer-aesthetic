@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*,
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-image: url(assets/images/bgkomputer.png);
+}
+
+.container {
+	background-color: aliceblue;
+	width: 800px;
+	margin: auto;
+}
+
+.header {
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.title {
+	font: 30px solid arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+.nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 15px 5px;
+	font: 20px solid;
+	font-family: 'ubuntu', sans-serif;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav a:hover {
+	color: salmon;
+}
+
+.card-img {
+	height: 200px;
+	display: block;
+	margin: auto;
+	padding: 20px;
+}
+
+.card {
+	background-color: rgba(69, 53, 67, 0.126);
+	display: block;
+	border: 1px solid palevioletred;
+	width: 400px;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 20px;
+	font-family: 'poppins', sans-serif;
+}
+
+table {
+	box-sizing: border-box;
+	margin: -5px auto;
+	padding: 10px;
+	align-items: center;
+	background-color: pink;
+	border-radius: 15px;
+}
+
+tr,
+td {
+	padding: 3px 0px;
+}
+
+.footer {
+	padding: 20px;
+	background-color: powderblue;
+	text-align: center;
+	font-family: 'ubuntu', sans-serif;
+}

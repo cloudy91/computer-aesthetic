@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+*,
+html {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-image: url(assets/images/bgkomputer.png);
+}
+
+.container {
+	width: 800px;
+	margin-top: 0px;
+	margin: auto;
+	background-color: aliceblue;
+}
+
+.header {
+	box-sizing: border-box;
+	padding: 20px;
+}
+.judul {
+	font: 30px solid arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+.header ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 15px 5px;
+	font-size: 20px;
+	font-family: 'ubuntu', sans-serif;
+}
+
+.header a {
+	text-decoration: none;
+	color: black;
+}
+
+.header a:hover {
+	color: powderblue;
+}
+
+.hero {
+	height: 280px;
+	background-image: url(assets/images/komputer.jpg);
+	background-size: cover;
+	background-position: 0px -180px;
+	border-top: 5px solid palevioletred;
+	border-bottom: 5px solid powderblue;
+}
+
+.artikel {
+	padding: 20px;
+	font-family: 'ubuntu', sans-serif;
+}
+
+.artikel p a {
+	text-decoration: none;
+	color: palevioletred;
+}
+
+.writer {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.content {
+	padding: 20px;
+	font-family: 'cataraman', sans-serif;
+}
+
+.content p {
+	font-size: 15px;
+	margin-bottom: 10px;
+	text-align-last: start;
+}
+
+.footer {
+	padding: 20px;
+	background-color: palevioletred;
+	font-family: 'ubuntu', sans-serif;
+}
+
+.footer p {
+	text-align: center;
+}

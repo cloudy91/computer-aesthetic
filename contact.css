@@ -1,0 +1,36 @@
+*,
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.title {
+	font: 30px solid arial, sans-serif;
+}
+
+.nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 15px 5px;
+	font: 20px solid;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav a:hover {
+	color: plum;
+}
+
+header {
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: palegoldenrod;
+}
