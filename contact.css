@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
 *,
 html {
 	padding: 0px;
 	margin: 0px;
 }
 
+body {
+	background-image: url(assets/images/bgkomputer.png);
+}
+
 .container {
 	width: 800px;
 	margin: auto;
+	overflow: hidden;
+	background-color: aliceblue;
 }
 
 .title {
 	font: 30px solid arial, sans-serif;
+	margin-bottom: 15px;
 }
 
 .nav ul li {
@@ -18,6 +28,7 @@ html {
 	display: inline;
 	padding: 15px 5px;
 	font: 20px solid;
+	font-family: 'ubuntu', sans-serif;
 }
 
 .nav a {
@@ -26,11 +37,43 @@ html {
 }
 
 .nav a:hover {
-	color: plum;
+	color: #ffc8dd;
 }
 
 header {
 	box-sizing: border-box;
 	padding: 20px;
-	background-color: palegoldenrod;
+	background-color: aliceblue;
+}
+main {
+	box-sizing: border-box;
+	padding: 8%;
+}
+
+.card h2 {
+	font-size: 30px;
+}
+
+.card img {
+	height: 200px;
+	background-size: cover;
+	border-radius: 20px;
+	margin: 15px 0px;
+}
+
+.card {
+	background-color: #ffc8dd;
+	width: 250px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 15px auto;
+	font-family: 'cataraman', sans-serif;
+}
+
+.footer {
+	background-color: #cdb4db;
+	padding: 20px;
+	text-align: center;
+	font-family: 'ubuntu', sans-serif;
 }
